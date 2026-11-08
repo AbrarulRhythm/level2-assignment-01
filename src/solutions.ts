@@ -84,7 +84,7 @@ const manager = new Manager('Alice', 50000, 'Engineering');
 manager.getDetails();
 manager.getRoleInfo();
 
-const validateAgeAsync = (age: number): Promise<string> => {
+const validateAgeAsync = async (age: number): Promise<string> => {
     return new Promise<string>((resolve, reject) => {
         if (age < 18) {
             reject(new Error('Access Denied: Must be 18 or older'));
