@@ -17,3 +17,9 @@ const processInput = (value: string | number | boolean): string | number => {
 
     throw new Error('Invalid input type');
 };
+
+const formatCoordinate = (coordinate: readonly [number, number, string]): string => {
+    const [latitude, longitude, locationName] = coordinate;
+
+    return `Location: ${locationName} (${latitude}, ${longitude})`;
+};
