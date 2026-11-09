@@ -14,4 +14,4 @@ This repository contains the complete practical coding solutions and theoretical
 ## Blog Links
 
 - [Type Aliases vs Interfaces Blog](./type-vs-interface.md)
-- [OOP Access Modifiers](./oop-access-modifiers.md)
+- [Access Modifiers in TypeScript OOP](./oop-access-modifiers.md)
