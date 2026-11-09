@@ -4,3 +4,6 @@ build/
 
 # Dependencies
 node_modules/
+
+# Custom ignored files
+solutions.js
